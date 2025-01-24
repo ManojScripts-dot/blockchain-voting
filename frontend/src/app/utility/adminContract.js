@@ -1,6 +1,6 @@
 import { ethers } from 'ethers';
 
-const adminContractAddress = "0x5020DCe39340e3792040F0a59e002F956416AF58"; 
+const adminContractAddress = "0xA3E1b370e1290A341178dB42103c9B6eC7cE331E"; 
 const adminContractABI = [
   {
     "inputs": [],
@@ -73,7 +73,8 @@ const adminContractABI = [
       }
     ],
     "stateMutability": "view",
-    "type": "function"
+    "type": "function",
+    "constant": true
   },
   {
     "inputs": [
@@ -92,7 +93,8 @@ const adminContractABI = [
       }
     ],
     "stateMutability": "view",
-    "type": "function"
+    "type": "function",
+    "constant": true
   },
   {
     "inputs": [
@@ -141,7 +143,8 @@ const adminContractABI = [
       }
     ],
     "stateMutability": "view",
-    "type": "function"
+    "type": "function",
+    "constant": true
   },
   {
     "inputs": [],
@@ -154,7 +157,8 @@ const adminContractABI = [
       }
     ],
     "stateMutability": "view",
-    "type": "function"
+    "type": "function",
+    "constant": true
   },
   {
     "inputs": [
@@ -261,7 +265,8 @@ const adminContractABI = [
       }
     ],
     "stateMutability": "view",
-    "type": "function"
+    "type": "function",
+    "constant": true
   },
   {
     "inputs": [],
@@ -311,7 +316,8 @@ const adminContractABI = [
       }
     ],
     "stateMutability": "view",
-    "type": "function"
+    "type": "function",
+    "constant": true
   },
   {
     "inputs": [],
@@ -361,7 +367,8 @@ const adminContractABI = [
       }
     ],
     "stateMutability": "view",
-    "type": "function"
+    "type": "function",
+    "constant": true
   }
 ];
 let provider, signer;

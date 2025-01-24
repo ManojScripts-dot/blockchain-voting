@@ -90,7 +90,7 @@ const Footer = () => {
       {/* Footer Bottom */}
       <div className="px-4 sm:px-8">
         <div className="mt-8 text-center border-t border-gray-600 pt-4">
-          <p className="text-sm md:text-base">&copy; 2024 Voting App. All Rights Reserved.</p>
+          <p className="text-sm md:text-base">&copy; 2025 Voting App. All Rights Reserved.</p>
         </div>
       </div>
     </footer>
