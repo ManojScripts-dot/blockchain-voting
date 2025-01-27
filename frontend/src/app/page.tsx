@@ -6,11 +6,12 @@ import Hero from "./components/Hero";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import { FaUsers, FaRegUser } from "react-icons/fa";
-import { FiChevronDown, FiChevronUp } from "react-icons/fi"; // Import the Chevron icons
+import Image from "next/image";
+import { FiChevronDown, FiChevronUp } from "react-icons/fi"; 
 
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false);
-  const [openQuestion, setOpenQuestion] = useState<number | null>(null); // Specify that openQuestion can be a number or null
+  const [openQuestion, setOpenQuestion] = useState<number | null>(null);
 
   // Points for "Why Choose QuickVote?"
   const features = [
@@ -56,7 +57,7 @@ export default function Home() {
     },
     {
       question: "Can QuickVote handle large-scale elections?",
-      answer: "Yes, QuickVote is designed to be scalable, making it suitable for elections of all sizes. Whether it’s a small student council election or a nationwide corporate vote, QuickVote’s infrastructure can handle high voter turnout seamlessly and without delays.",
+      answer: "Yes, QuickVote is designed to be scalable, making it suitable for elections of all sizes. Whether it&apos;s a small student council election or a nationwide corporate vote, QuickVote’s infrastructure can handle high voter turnout seamlessly and without delays.",
     },
     {
       question: "Is QuickVote easy to use for first-time voters?",
@@ -84,7 +85,7 @@ export default function Home() {
           Why Choose QuickVote?
         </h1>
         <p className="text-gray-900 text-lg mb-6 text-left">
-          QuickVote is the next-generation online voting platform that prioritizes security, accessibility, and efficiency. Designed for organizations of all sizes, from student councils to corporate teams, QuickVote provides a seamless voting experience with a focus on trust, transparency, and innovation. Here's why QuickVote stands out:
+          QuickVote is the next-generation online voting platform that prioritizes security, accessibility, and efficiency. Designed for organizations of all sizes, from student councils to corporate teams, QuickVote provides a seamless voting experience with a focus on trust, transparency, and innovation. Here&apos;s why QuickVote stands out:
         </p>
 
         <div className="flex flex-col gap-6">
@@ -97,7 +98,7 @@ export default function Home() {
             >
               {/* Image */}
               <div className="w-full md:w-1/4">
-                <img
+                <Image
                   src={image}
                   alt={title}
                   className="rounded-lg w-full h-auto object-cover"
@@ -120,7 +121,7 @@ export default function Home() {
         <div className="flex flex-wrap items-center justify-between">
           {/* Left Image */}
           <div className="w-full lg:w-1/2 mb-8 lg:mb-0 flex justify-center">
-            <img
+            <Image
               src="/team.jpeg"
               alt="QuickVote Team"
               className="rounded-lg shadow-lg w-full max-w-lg sm:max-w-xl"
@@ -154,7 +155,7 @@ export default function Home() {
   <div className="flex flex-col lg:flex-row-reverse gap-10 items-start">
     {/* FAQ Image */}
     <div className="w-full lg:w-1/4 mb-6 lg:mb-0 flex justify-center">
-      <img
+      <Image
         src="/faq.png"
         alt="FAQ Illustration"
         className="rounded-lg shadow-lg object-contain w-full max-w-xs sm:max-w-sm"

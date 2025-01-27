@@ -5,6 +5,7 @@ import Link from "next/link";
 import React from "react";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import Image from "next/image";
 export default function AboutUsPage() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -32,7 +33,7 @@ export default function AboutUsPage() {
 
           <h2 className="text-logoBlue text-3xl font-semibold mb-6 text-left">Our Vision</h2>
           <p className="text-gray-600 text-lg mb-8 text-left">
-          To create a world where every voter's voice is heard and counted with the utmost confidence and transparency. QuickVote aims to redefine the global standard for electoral systems, fostering trust and participation in democratic processes.
+          To create a world where every voter&apos;s voice is heard and counted with the utmost confidence and transparency. QuickVote aims to redefine the global standard for electoral systems, fostering trust and participation in democratic processes.
           </p>
 
           <h2 className="text-logoBlue text-3xl font-semibold mb-6 text-left">Our Team</h2>
@@ -43,7 +44,7 @@ export default function AboutUsPage() {
           <div className="flex flex-wrap justify-center gap-12">
             {/* Team Member 1 */}
             <div className="max-w-xs bg-white p-6 rounded-lg shadow-md text-center transform transition-transform duration-300 hover:scale-110 group">
-              <img
+              <Image
                 src="/preeti.jpg"
                 alt="Preeti Rajdhami"
                 className="w-38 h-40 mx-auto box-full rounded-lg mb-4"
@@ -57,7 +58,7 @@ export default function AboutUsPage() {
 
             {/* Team Member 2 */}
             <div className="max-w-xs bg-white p-6 rounded-lg shadow-md text-center transform transition-transform duration-300 hover:scale-110 group">
-              <img
+              <Image
                 src="/manoj.jpg"
                 alt="Manoj Shrestha"
                 className="w-38 h-40 mx-auto box-full rounded-lg mb-4"
@@ -71,7 +72,7 @@ export default function AboutUsPage() {
 
             {/* Team Member 3 */}
             <div className="max-w-xs bg-white p-6 rounded-lg shadow-md text-center transform transition-transform duration-300 hover:scale-110 group">
-              <img
+              <Image
                 src="/sohit.jpg"
                 alt="Sohit Sharma Tiwari"
                 className="w-38 h-40 mx-auto box-full rounded-lg mb-4"
@@ -79,7 +80,7 @@ export default function AboutUsPage() {
               <h3 className="text-xl font-semibold text-logoBlue mb-1">Sohit Sharma Tiwari</h3>
               <p className="text-gray-6900 mb-4">(UI/UX)</p>
               <p className="text-gray-600 text-left">
-              Sohit focuses on enhancing the platform's UI/UX. He designs intuitive and user-friendly interfaces to ensure a seamless voting experience while maintaining accessibility and clarity across all user interactions.
+              Sohit focuses on enhancing the platform&apos;s UI/UX. He designs intuitive and user-friendly interfaces to ensure a seamless voting experience while maintaining accessibility and clarity across all user interactions.
               </p>
             </div>
           </div>

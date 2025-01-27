@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useSpring, animated } from '@react-spring/web';
 import Link from 'next/link';
+import Image from "next/image";
 
 const Hero = () => {
   const [isMounted, setIsMounted] = useState(false); // Track if the component is mounted on the client side
@@ -57,7 +58,7 @@ const Hero = () => {
           {/* Right Content (Image) */}
           <div className="w-full md:w-1/2 mt-8 md:mt-0 flex justify-center">
             {/* Image placed here */}
-            <img
+            <Image
               src="/mobile.png" // Replace with the actual path to your image
               alt="Voting Illustration"
               className="max-w-full h-auto rounded-lg"

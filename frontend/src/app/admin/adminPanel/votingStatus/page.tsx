@@ -7,6 +7,7 @@ import { Pie } from "react-chartjs-2";
 import { TooltipItem } from 'chart.js';
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
 import ChartDataLabels from 'chartjs-plugin-datalabels';
+import Image from "next/image";
 
 ChartJS.register(ArcElement, Tooltip, Legend, ChartDataLabels);
 
@@ -265,7 +266,7 @@ const VotingStatusPage = () => {
                                             </p>
 
                                             <div className="mb-6">
-                                                <img
+                                                <Image
                                                     src={winners[0].profileImageHash ? `https://ipfs.io/ipfs/${winners[0].profileImageHash}` : "/default-avatar.png"}
                                                     alt="Winner Avatar"
                                                     className="w-32 h-32 rounded-full mx-auto mb-4"

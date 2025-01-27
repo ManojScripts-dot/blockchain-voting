@@ -57,7 +57,7 @@ const Contactus = () => {
         <div className="md:w-1/2 w-full bg-white p-6 rounded-lg shadow-md">
           <h2 className="text-2xl font-semibold mb-4">Our Contact Details</h2>
           <p className="mb-4 text-gray-700">
-            <strong>Address:</strong> Brother's Complex, Sangeet Chowk, Itahari-06, Sunsari
+            <strong>Address:</strong> Brother&apos;s Complex, Sangeet Chowk, Itahari-06, Sunsari
           </p>
           <p className="mb-4 text-gray-700">
             <strong>Phone:</strong> +977-9804030403

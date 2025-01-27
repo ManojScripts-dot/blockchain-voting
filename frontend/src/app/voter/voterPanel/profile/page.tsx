@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import VoterLayout from "../VoterLayout";
-
+import Image from "next/image";
 interface VoterProfile {
   name: string;
   email: string;
@@ -96,7 +96,7 @@ const VoterProfilePage = () => {
           <h2 className="text-3xl lg:text-4xl font-bold text-bgBlue mb-6 text-center">Voter Profile</h2>
 
           <div className="mb-6 flex justify-center">
-            <img
+            <Image
               src={imageUrl}
               alt="Voter Profile"
               className="w-28 h-28 object-cover rounded-full shadow-md transition-transform transform hover:scale-105"

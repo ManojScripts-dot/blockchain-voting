@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import { ethers } from "ethers";
 import getAdminContractInstance from "../../../utility/adminContract.js";
 import AdminLayout from "../AdminLayout";
+import Image from "next/image";
 
 interface Candidate {
   firstName: string;
@@ -88,7 +89,7 @@ const CandidateList = () => {
            >
              {/* Profile Image */}
              <div className="text-center mb-4">
-               <img
+               <Image
                  src={
                    candidate.profileImageHash
                      ? `https://ipfs.io/ipfs/${candidate.profileImageHash}`

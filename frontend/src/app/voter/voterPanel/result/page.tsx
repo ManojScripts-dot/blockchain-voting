@@ -6,7 +6,7 @@ import getAdminContractInstance from "../../../utility/adminContract";
 import { Pie } from "react-chartjs-2";
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
 import ChartDataLabels from 'chartjs-plugin-datalabels';
-
+import Image from "next/image";
 ChartJS.register(ArcElement, Tooltip, Legend, ChartDataLabels, );
 
 interface Winner {
@@ -191,12 +191,12 @@ const ResultPage = () => {
                                                 Congratulations to the Winner!
                                             </h2>
                                             <p className="text-lg text-gray-600 mb-6">
-                                                We are thrilled to announce the winner of this election!  Let's celebrate their achievement!
+                                                We are thrilled to announce the winner of this election!  Let&apos;s celebrate their achievement!
                                             </p>
                           
                           {winners.map((winner: Winner, index: number) => (
                             <div key={index} className="mb-6 text-center flex flex-col items-center">
-                              <img
+                              <Image
                                 src={winner.profileImageHash ? `https://ipfs.io/ipfs/${winner.profileImageHash}` : "/default-avatar.png"}
                                 alt="Winner Avatar"
                                 className="w-32 h-32 rounded-full mx-auto mb-4"
