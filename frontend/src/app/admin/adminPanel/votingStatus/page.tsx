@@ -262,7 +262,7 @@ const VotingStatusPage = () => {
                                                 Congratulations to the Winner!
                                             </h2>
                                             <p className="text-lg text-gray-600 mb-6">
-                                                We are thrilled to announce the winner of this election! Their dedication, hard work, and the support of their community have earned them this prestigious title. Let's celebrate their achievement!
+                                                We are thrilled to announce the winner of this election! Their dedication, hard work, and the support of their community have earned them this prestigious title. Let&apos;s celebrate their achievement!
                                             </p>
 
                                             <div className="mb-6">
