@@ -1,9 +1,14 @@
 {
-    "builds": [
-      {
-        "src": "frontend/src/app/page.tsx",
-        "use": "@vercel/next"
-      }
-    ]
-  }
-  
+  "builds": [
+    {
+      "src": "frontend/package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/frontend/$1"
+    }
+  ]
+}
