@@ -101,6 +101,8 @@ export default function Home() {
                 <Image
                   src={image}
                   alt={title}
+                  width={150} 
+                  height={150}
                   className="rounded-lg w-full h-auto object-cover"
                 />
               </div>
@@ -124,6 +126,8 @@ export default function Home() {
             <Image
               src="/team.jpeg"
               alt="QuickVote Team"
+              width={150} 
+              height={150}
               className="rounded-lg shadow-lg w-full max-w-lg sm:max-w-xl"
             />
           </div>
@@ -158,6 +162,8 @@ export default function Home() {
       <Image
         src="/faq.png"
         alt="FAQ Illustration"
+        width={150} 
+        height={150}
         className="rounded-lg shadow-lg object-contain w-full max-w-xs sm:max-w-sm"
       />
     </div>

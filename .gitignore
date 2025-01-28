@@ -9,3 +9,6 @@ node_modules/
 
 # Ignore specific files
 hashPassword.js
+
+# Local Netlify folder
+.netlify

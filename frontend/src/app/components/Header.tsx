@@ -22,7 +22,7 @@ const Header = () => {
     <header className="sticky top-0 bg-white shadow-md z-50 h-20">
       <div className="lg:px-32 sm:px-7 md:px-8 mx-auto flex items-center justify-between py-4 px-4 relative">
         <Link href="/" className="text-2xl font-bold flex items-center space-x-2">
-          <Image src="/quick.png" alt="logo" className="h-12" />
+          <Image src="/quick.png" alt="logo" width={150} height={150} className="h-12" />
         </Link>
 
         <div className="md:hidden">

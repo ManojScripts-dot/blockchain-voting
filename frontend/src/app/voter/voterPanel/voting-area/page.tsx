@@ -169,6 +169,8 @@ const CandidateList = () => {
                     <Image
                       src={`https://ipfs.io/ipfs/${candidate.logoImageHash}`}
                       alt="Logo"
+                      width={150} 
+                      height={150}
                       className="w-16 h-16 rounded-full"
                     />
                   ) : (

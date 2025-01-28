@@ -269,6 +269,8 @@ const VotingStatusPage = () => {
                                                 <Image
                                                     src={winners[0].profileImageHash ? `https://ipfs.io/ipfs/${winners[0].profileImageHash}` : "/default-avatar.png"}
                                                     alt="Winner Avatar"
+                                                    width={150} 
+                                                    height={150}
                                                     className="w-32 h-32 rounded-full mx-auto mb-4"
                                                 />
                                                 <h4 className="text-xl font-semibold text-bgBlue mb-2">

@@ -199,6 +199,8 @@ const ResultPage = () => {
                               <Image
                                 src={winner.profileImageHash ? `https://ipfs.io/ipfs/${winner.profileImageHash}` : "/default-avatar.png"}
                                 alt="Winner Avatar"
+                                width={150} 
+                                height={150}
                                 className="w-32 h-32 rounded-full mx-auto mb-4"
                               />
 
@@ -208,7 +210,7 @@ const ResultPage = () => {
                                 
                                 <h4 className="text-xl lg:text-2xl font-semibold text-bgBlue mb-2">
                                   {winner.firstName} {winner.lastName}
-                                </h4>
+                            </h4>
 
                                 <p className="text-lg font-medium text-gray-700">Position: {winner.position}</p>
                                 <p className="text-lg font-medium text-gray-700">Votes: {winner.voteCount}</p>

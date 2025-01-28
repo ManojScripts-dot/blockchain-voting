@@ -47,6 +47,8 @@ export default function AboutUsPage() {
               <Image
                 src="/preeti.jpg"
                 alt="Preeti Rajdhami"
+                width={160} 
+                height={150}
                 className="w-38 h-40 mx-auto box-full rounded-lg mb-4"
               />
               <h3 className="text-xl font-semibold text-logoBlue mb-1">Preeti Rajdhami</h3>
@@ -61,6 +63,8 @@ export default function AboutUsPage() {
               <Image
                 src="/manoj.jpg"
                 alt="Manoj Shrestha"
+                width={160} 
+                height={150}
                 className="w-38 h-40 mx-auto box-full rounded-lg mb-4"
               />
               <h3 className="text-xl font-semibold text-logoBlue mb-1">Manoj Shrestha</h3>
@@ -75,6 +79,8 @@ export default function AboutUsPage() {
               <Image
                 src="/sohit.jpg"
                 alt="Sohit Sharma Tiwari"
+                width={150} 
+                height={150}
                 className="w-38 h-40 mx-auto box-full rounded-lg mb-4"
               />
               <h3 className="text-xl font-semibold text-logoBlue mb-1">Sohit Sharma Tiwari</h3>

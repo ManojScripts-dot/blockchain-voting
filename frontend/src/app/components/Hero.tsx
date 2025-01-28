@@ -61,6 +61,8 @@ const Hero = () => {
             <Image
               src="/mobile.png" // Replace with the actual path to your image
               alt="Voting Illustration"
+              width={750} 
+              height={150}
               className="max-w-full h-auto rounded-lg"
             />
           </div>

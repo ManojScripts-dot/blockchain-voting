@@ -99,6 +99,8 @@ const VoterProfilePage = () => {
             <Image
               src={imageUrl}
               alt="Voter Profile"
+              width={150} 
+              height={150}
               className="w-28 h-28 object-cover rounded-full shadow-md transition-transform transform hover:scale-105"
               onError={(e) => console.error("Error loading image:", e)}
             />

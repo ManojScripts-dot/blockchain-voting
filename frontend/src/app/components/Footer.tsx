@@ -13,7 +13,7 @@ const Footer = () => {
           {/* Logo and Description Section */}
           <div className="flex-1 text-center lg:text-left">
             <div className="flex flex-col items-center lg:items-start">
-              <Image src="/whitelogo.png" alt="QuickVote Logo" className="h-12 mb-4" />
+              <Image src="/whitelogo.png" alt="QuickVote Logo" width={150} height={150}className="h-12 mb-4" />
               <p className="text-sm mb-4">
                 QuickVote is a blockchain platform ensuring secure, transparent, and accessible voting with real-time counting and user-friendly features.
               </p>
@@ -67,7 +67,7 @@ const Footer = () => {
           <div className="flex-1 text-center lg:text-end">
             <div className="flex flex-col items-center lg:items-end">
               <h3 className="font-semibold mb-4">USEFUL LINK</h3>
-              <Image src="/qr.png" alt="QR of useful links" className="w-32 h-32 object-contain mb-4" />
+              <Image src="/qr.png" alt="QR of useful links" width={150} height={150} className="w-32 h-32 object-contain mb-4" />
               {/* Border after Useful Link on Small Screens */}
               <div className="border-t border-gray-600 w-full block lg:hidden mt-4"></div>
             </div>

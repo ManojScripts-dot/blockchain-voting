@@ -96,6 +96,8 @@ const CandidateList = () => {
                      : "https://via.placeholder.com/150" // Placeholder for no image
                  }
                  alt="Profile"
+                 width={150} 
+                 height={150}
                  className="w-32 h-32 md:w-40 md:h-40 rounded-full mx-auto"
                />
                {!candidate.profileImageHash && (
