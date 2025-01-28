@@ -1,0 +1,9 @@
+{
+    "builds": [
+      {
+        "src": "frontend/src/app/page.tsx",
+        "use": "@vercel/next"
+      }
+    ]
+  }
+  
