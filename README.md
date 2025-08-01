@@ -483,85 +483,39 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👥 Authors
 
-<div align="center">
-
-### Meet the QuickVote Development Team
-
-</div>
-
 <table>
 <tr>
 <td align="center">
-<img src="https://quickvote-blockchain.vercel.app/preeti.jpg" width="150" style="border-radius: 50%"/>
-<br />
 <strong>Preeti Rajdhami</strong>
 <br />
 <em>Backend Developer</em>
 <br />
-<p>Expert in Node.js, blockchain integration, and database management. Ensures secure and efficient system operations.</p>
-<br />
-<a href="https://www.linkedin.com/in/preeti-rajdhami-103803244/">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-</a>
 <a href="https://github.com/Preetirajdhami">
 <img src="https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white" alt="GitHub"/>
-</a>
-<a href="mailto:preetirajdhami@gmail.com">
-<img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" alt="Email"/>
 </a>
 </td>
 
 <td align="center">
-<img src="https://quickvote-blockchain.vercel.app/manoj.jpg" width="150" style="border-radius: 50%"/>
-<br />
 <strong>Manoj Shrestha</strong>
 <br />
 <em>Frontend Developer</em>
 <br />
-<p>Specialist in Next.js, TypeScript, and responsive design. Creates intuitive user experiences for all voters.</p>
-<br />
-<a href="https://www.linkedin.com/in/manoj-shrestha-43a64b177/">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-</a>
 <a href="https://github.com/ManojScripts-dot">
 <img src="https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white" alt="GitHub"/>
-</a>
-<a href="mailto:stha8841@gmail.com">
-<img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" alt="Email"/>
 </a>
 </td>
 
 <td align="center">
-<img src="https://quickvote-blockchain.vercel.app/sohit.jpg" width="150" style="border-radius: 50%"/>
-<br />
 <strong>Sohit Sharma Tiwari</strong>
 <br />
 <em>UI/UX Designer</em>
 <br />
-<p>Focuses on user-centered design and accessibility. Creates seamless interfaces for democratic participation.</p>
-<br />
-<a href="https://www.linkedin.com/in/sohit-tiwari-4b8704244/">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-</a>
 <a href="https://github.com/MrSOHIT">
 <img src="https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white" alt="GitHub"/>
-</a>
-<a href="mailto:tiwarisohit76@gmail.com">
-<img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" alt="Email"/>
 </a>
 </td>
 </tr>
 </table>
-
-### 🎯 Our Mission
-> "To create a world where every voter's voice is heard and counted with the utmost confidence and transparency through innovative blockchain technology."
-
-### 🏆 Team Achievements
-- ✅ Successfully deployed on Ethereum Sepolia Testnet
-- ✅ Built comprehensive full-stack application
-- ✅ Implemented advanced security measures
-- ✅ Created user-friendly voting experience
-- ✅ Achieved 99.9% uptime reliability
 
 ---
 
