@@ -170,8 +170,8 @@ export default function ContactPage() {
           </div>
           <h1 className="text-4xl md:text-6xl font-bold mb-6">Contact Us</h1>
           <p className="text-xl text-gray-200 max-w-3xl mx-auto leading-relaxed">
-            We're here to help you with any questions or support you need. Reach out to the QuickVote team 
-            and let's make your voting experience seamless and secure.
+            We&apos;re here to help you with any questions or support you need. Reach out to the QuickVote team 
+            and let&apos;s make your voting experience seamless and secure.
           </p>
         </div>
       </section>
@@ -186,7 +186,7 @@ export default function ContactPage() {
               <div className="mb-8">
                 <h2 className="text-3xl font-bold text-logoBlue mb-4">Send us a Message</h2>
                 <p className="text-gray-600">
-                  Fill out the form below and we'll get back to you as soon as possible.
+                  Fill out the form below and we&apos;ll get back to you as soon as possible.
                 </p>
               </div>
               
