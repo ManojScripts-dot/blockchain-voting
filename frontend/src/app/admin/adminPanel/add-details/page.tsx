@@ -381,7 +381,7 @@ const AddCandidatePage = () => {
                 <div className="text-gray-600 text-sm space-y-1">
                   <p>• Make sure to fill in all required fields</p>
                   <p>• Profile image should clearly show the candidate&apos;s face</p>
-                  <p>• Logo image will be displayed as the candidate'&apos;s symbol</p>
+                  <p>• Logo image will be displayed as the candidate&apos;s symbol</p>
                   <p>• Images will be stored securely on IPFS</p>
                   <p>• Transaction will be recorded on blockchain for transparency</p>
                 </div>

@@ -526,7 +526,7 @@ const VotingStatusPage = () => {
                       ? ((maxVotes / votesData.reduce((sum, candidate) => sum + candidate.votes, 0)) * 100).toFixed(1)
                       : '0'}%
                   </div>
-                  <div className="text-sm text-gray-600">Winner's Share</div>
+                  <div className="text-sm text-gray-600">Winner&apos;s Share</div>
                 </div>
               </div>
             </div>
@@ -545,7 +545,7 @@ const VotingStatusPage = () => {
               </div>
               <div className="p-8 text-center">
                 <p className="text-gray-600 mb-8 leading-relaxed">
-                  Stopping the voting process will finalize the election and you won't be able to restart it. 
+                  Stopping the voting process will finalize the election and you won&apos;t be able to restart it. 
                   Are you sure you want to proceed?
                 </p>
                 <div className="flex space-x-4">

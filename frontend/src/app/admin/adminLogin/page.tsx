@@ -268,7 +268,7 @@ const AdminLogin = () => {
               <div className="text-center">
                 <h3 className="font-semibold text-white mb-3">Need Help?</h3>
                 <p className="text-sm text-gray-300 mb-4">
-                  If you're having trouble accessing the admin panel, please contact the system administrator.
+                  If you&apos;re having trouble accessing the admin panel, please contact the system administrator.
                 </p>
                 <div className="flex items-center justify-center space-x-4 text-sm">
                   <span className="text-gray-300">Emergency:</span>

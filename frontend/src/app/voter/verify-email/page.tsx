@@ -218,10 +218,10 @@ const VerifyEmail = () => {
                   <div className="flex items-start space-x-3">
                     <FaEnvelope className="text-logoBlue mt-1 flex-shrink-0" />
                     <div>
-                      <h4 className="font-semibold text-logoBlue text-sm mb-1">Didn't receive the code?</h4>
+                      <h4 className="font-semibold text-logoBlue text-sm mb-1">Didn&apos;t receive the code?</h4>
                       <p className="text-xs text-gray-600 leading-relaxed">
                         Check your spam folder or wait a few minutes for the email to arrive. 
-                        If you still don't receive it, please contact our support team.
+                        If you still don&apos;t receive it, please contact our support team.
                       </p>
                       <button className="text-logoBlue hover:text-bgBlue text-sm font-medium mt-2 hover:underline transition-colors duration-200">
                         Resend Code

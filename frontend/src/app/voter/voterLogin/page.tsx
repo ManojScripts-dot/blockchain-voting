@@ -202,7 +202,7 @@ const VoterLogin = () => {
                 {/* Footer Links */}
                 <div className="pt-6 space-y-4 text-center border-t border-gray-100">
                   <div className="text-gray-600">
-                    Don't have an account?{" "}
+                    Don&apos;t have an account?{" "}
                     <a
                       href="/voter/voterRegister"
                       className="text-logoBlue hover:text-bgBlue font-semibold transition-colors duration-200 hover:underline"

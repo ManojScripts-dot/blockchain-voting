@@ -431,7 +431,7 @@ const VoterResultPage = () => {
                 <div className="text-center mb-8">
                   <h3 className="text-2xl font-bold text-logoBlue mb-4">Election Summary</h3>
                   <p className="text-gray-600 leading-relaxed max-w-3xl mx-auto">
-                    This election was conducted using QuickVote's secure blockchain technology, 
+                    This election was conducted using QuickVote&apos;s secure blockchain technology, 
                     ensuring complete transparency and immutability of all votes cast.
                   </p>
                 </div>
