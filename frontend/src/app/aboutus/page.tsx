@@ -13,11 +13,18 @@ import {
   FaHeart, 
   FaLinkedin, 
   FaGithub, 
-  FaTwitter,
+  FaEnvelope,
   FaCode,
   FaPaintBrush,
   FaServer
 } from "react-icons/fa";
+
+import preeti from "../../../public/preeti.jpg"
+import manoj from "../../../public/manoj.jpg"
+import sohit from "../../../public/sohit.jpg"
+
+
+
 
 export default function AboutUsPage() {
   const [selectedMember, setSelectedMember] = useState<number | null>(null);
@@ -26,43 +33,43 @@ export default function AboutUsPage() {
     {
       name: "Preeti Rajdhami",
       role: "Backend Developer",
-      image: "/preeti.jpg",
+      image: preeti,
       description: "Preeti is an expert backend developer with a strong focus on building secure and efficient systems. She ensures the QuickVote platform operates seamlessly, maintaining the highest standards of performance, integrity, and trust.",
       skills: ["Node.js", "Blockchain", "Security", "Database Design"],
       icon: <FaServer className="text-2xl" />,
       color: "from-blue-500 to-blue-600",
       social: {
         linkedin: "#",
-        github: "#",
-        twitter: "#"
+        github: "https://github.com/Preetirajdhami",
+        email: "mailto:preeti@quickvote.com"
       }
     },
     {
       name: "Manoj Shrestha",
       role: "Frontend Developer",
-      image: "/manoj.jpg",
+      image: manoj,
       description: "Manoj brings a user-centered design approach to QuickVote. He ensures that our platform is intuitive, visually appealing, and accessible to users of all backgrounds and technical skill levels.",
       skills: ["React", "Next.js", "UI/UX", "TypeScript"],
       icon: <FaCode className="text-2xl" />,
       color: "from-green-500 to-green-600",
       social: {
-        linkedin: "#",
-        github: "#",
-        twitter: "#"
+        linkedin: "https://www.linkedin.com/in/manoj-shrestha-43a64b177/",
+        github: "https://github.com/ManojScripts-dot",
+        email: "mailto:manoj@quickvote.com"
       }
     },
     {
       name: "Sohit Sharma Tiwari",
       role: "UI/UX Designer",
-      image: "/sohit.jpg",
+      image: sohit,
       description: "Sohit focuses on enhancing the platform's UI/UX. He designs intuitive and user-friendly interfaces to ensure a seamless voting experience while maintaining accessibility and clarity across all user interactions.",
       skills: ["Figma", "Design Systems", "User Research", "Prototyping"],
       icon: <FaPaintBrush className="text-2xl" />,
       color: "from-purple-500 to-purple-600",
       social: {
         linkedin: "#",
-        github: "#",
-        twitter: "#"
+        github: "https://github.com/MrSOHIT",
+        email: "mailto:sohit@quickvote.com"
       }
     }
   ];
@@ -244,34 +251,33 @@ export default function AboutUsPage() {
                 onMouseLeave={() => setSelectedMember(null)}
               >
                 {/* Image Section */}
-                <div className="relative overflow-hidden">
+                <div className="relative h-96 overflow-hidden">
                   <Image
                     src={member.image}
                     alt={member.name}
-                    width={400}
-                    height={300}
-                    className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
+                    fill
+                    className="object-cover object-center group-hover:scale-105 transition-transform duration-500"
                   />
                   
                   {/* Overlay with social links */}
-                  <div className={`absolute inset-0 bg-gradient-to-t ${member.color} opacity-0 group-hover:opacity-90 transition-opacity duration-300 flex items-center justify-center`}>
+                  <div className="absolute inset-0 bg-white/10 backdrop-blur-md border border-white/20 opacity-0 group-hover:opacity-100 transition-all duration-300 flex items-center justify-center">
                     <div className="flex space-x-4">
-                      <a href={member.social.linkedin} className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center text-white hover:bg-white/30 transition-colors duration-200">
+                      <a href={member.social.linkedin} className="w-12 h-12 bg-white/20 backdrop-blur-sm border border-white/30 rounded-full flex items-center justify-center text-white hover:bg-white/30 hover:scale-110 transition-all duration-200 shadow-lg">
                         <FaLinkedin className="text-xl" />
                       </a>
-                      <a href={member.social.github} className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center text-white hover:bg-white/30 transition-colors duration-200">
+                      <a href={member.social.github} className="w-12 h-12 bg-white/20 backdrop-blur-sm border border-white/30 rounded-full flex items-center justify-center text-white hover:bg-white/30 hover:scale-110 transition-all duration-200 shadow-lg">
                         <FaGithub className="text-xl" />
                       </a>
-                      <a href={member.social.twitter} className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center text-white hover:bg-white/30 transition-colors duration-200">
-                        <FaTwitter className="text-xl" />
+                      <a href={member.social.email} className="w-12 h-12 bg-white/20 backdrop-blur-sm border border-white/30 rounded-full flex items-center justify-center text-white hover:bg-white/30 hover:scale-110 transition-all duration-200 shadow-lg">
+                        <FaEnvelope className="text-xl" />
                       </a>
                     </div>
                   </div>
 
-                  {/* Role Badge */}
-                  <div className={`absolute top-4 left-4 inline-flex items-center space-x-2 bg-gradient-to-r ${member.color} text-white px-4 py-2 rounded-full text-sm font-semibold`}>
+                  {/* Role Badge with Glass Effect */}
+                  <div className="absolute top-4 left-4 inline-flex items-center space-x-2 bg-white/20 backdrop-blur-md border border-white/30 text-white px-4 py-2 rounded-full text-sm shadow-lg group-hover:bg-white/30 group-hover:scale-105 transition-all duration-300">
                     {member.icon}
-                    <span>{member.role}</span>
+                    <span className="font-medium">{member.role}</span>
                   </div>
                 </div>
 
@@ -279,7 +285,7 @@ export default function AboutUsPage() {
                 <div className="p-8">
                   <div className="space-y-4">
                     <h3 className="text-2xl font-bold text-logoBlue">{member.name}</h3>
-                    <p className="text-gray-600 leading-relaxed">{member.description}</p>
+                    <p className="text-gray-600 leading-relaxed text-sm">{member.description}</p>
                     
                     {/* Skills */}
                     <div className="flex flex-wrap gap-2 pt-4">
@@ -354,9 +360,9 @@ export default function AboutUsPage() {
               Join Our Mission
             </h2>
             <p className="text-xl text-blue-100 leading-relaxed max-w-3xl mx-auto">
-              Ready to be part of the future of democratic voting? Whether you're an organization 
+              Ready to be part of the future of democratic voting? Whether you&apos;re an organization 
               looking to implement secure voting or a developer interested in contributing to our cause, 
-              we'd love to hear from you.
+              we&apos;d love to hear from you.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-6 justify-center pt-8">

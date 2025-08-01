@@ -11,6 +11,9 @@ import {
 import { FaMapMarkerAlt } from "react-icons/fa";
 import Image from "next/image";
 import Link from "next/link";
+import qr from "../../../public/qr.png"
+import quick from "../../../public/quick.png"
+
 
 const Footer = () => {
   const quickLinks = [
@@ -71,13 +74,12 @@ const Footer = () => {
           <div className="lg:col-span-1 space-y-6">
             <div className="flex items-center space-x-3">
               <Image
-                src="/whitelogo.png"
+                src={quick}
                 alt="QuickVote Logo"
-                width={48}
-                height={48}
-                className="rounded-xl"
+                width={70}
+                height={10}
+                className="rounded-xl bg-white"
               />
-              <h3 className="text-2xl font-bold">QuickVote</h3>
             </div>
             
             <p className="text-gray-300 leading-relaxed text-lg">
@@ -135,7 +137,7 @@ const Footer = () => {
                 <h5 className="font-semibold text-white mb-3">QR Code</h5>
                 <div className="bg-white rounded-xl p-4 inline-block">
                   <Image
-                    src="/qr.png"
+                    src={qr}
                     alt="QR Code for useful links"
                     width={120}
                     height={120}

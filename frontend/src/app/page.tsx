@@ -8,6 +8,10 @@ import Header from "./components/Header";
 import { FaUsers, FaRegUser, FaShieldAlt, FaHeadset, FaChevronDown, FaChevronUp } from "react-icons/fa";
 import { FiChevronDown, FiChevronUp } from "react-icons/fi";
 import Image from "next/image";
+import security from "../../public/security.png"
+import easeofuse from "../../public/easeofuse.png"
+import customerservice from "../../public/customerservice.png"
+import team from "../../public/team.jpeg"
 
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,7 +19,7 @@ export default function Home() {
 
   const features = [
     {
-      image: "/security.png",
+      image: security,
       title: "Advanced Security",
       description:
         "QuickVote leverages cutting-edge blockchain technology to guarantee the safety of your votes. Each vote is encrypted and securely recorded, preventing tampering or unauthorized access.",
@@ -23,7 +27,7 @@ export default function Home() {
       stats: "256-bit Encryption"
     },
     {
-      image: "/easeofuse.png", 
+      image: easeofuse, 
       title: "Ease of Use",
       description:
         "Our intuitive interface makes online voting accessible to everyone, regardless of their technical expertise. Simple, clean design ensures a smooth voting experience for all users.",
@@ -31,7 +35,7 @@ export default function Home() {
       stats: "3-Step Process"
     },
     {
-      image: "/customerservice.png",
+      image: customerservice,
       title: "24/7 Customer Service",
       description:
         "We provide exceptional customer support around the clock. Our dedicated team is always available to resolve issues and ensure a hassle-free voting experience.",
@@ -193,7 +197,7 @@ export default function Home() {
             <div className="relative">
               <div className="relative bg-white/10 backdrop-blur-sm rounded-3xl p-8 border border-white/20">
                 <Image
-                  src="/team.jpeg"
+                  src={team}
                   alt="QuickVote Team"
                   width={600}
                   height={400}

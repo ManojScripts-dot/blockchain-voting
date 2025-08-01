@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useSpring, animated } from '@react-spring/web';
 import Link from 'next/link';
 import Image from "next/image";
+import mobile from "../../../public/mobile.png"
 
 const Hero = () => {
   const [isMounted, setIsMounted] = useState(false);
@@ -112,7 +113,7 @@ const Hero = () => {
               {/* Main Image */}
               <div className="relative bg-white/10 backdrop-blur-sm rounded-3xl p-8 border border-white/20">
                 <Image
-                  src="/mobile.png"
+                  src={mobile}
                   alt="Voting Platform Illustration"
                   width={600}
                   height={400}
