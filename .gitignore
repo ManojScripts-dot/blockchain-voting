@@ -25,6 +25,7 @@ hashPassword.js
 # next.js
 /.next/
 /out/
+**/.next/
 
 # production
 /build

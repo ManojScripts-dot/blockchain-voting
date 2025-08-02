@@ -531,7 +531,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 <div align="center">
-  <p>Made with ❤️ by the QuickVote Team</p>
   <p><strong>Empowering Democracy Through Technology</strong></p>
   <p><em>From Itahari, Sunsari, Nepal 🇳🇵</em></p>
   
