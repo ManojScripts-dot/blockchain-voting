@@ -132,25 +132,30 @@ const Footer = () => {
 
           {/* Useful Links */}
           <div className="space-y-6">
-            <h4 className="text-xl text-center font-semibold text-popBlue">Resources</h4>
-            <div className="space-y-4">
-              <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
-                <h5 className="font-semibold text-white mb-3">QR Code</h5>
-                <div className="bg-white rounded-xl p-4 inline-block">
-                  <Image
-                    src={qr}
-                    alt="QR Code for useful links"
-                    width={120}
-                    height={120}
-                    className="w-30 h-30"
-                  />
-                </div>
-                <p className="text-sm text-gray-300 mt-3">
-                  Scan to access official election information
-                </p>
-              </div>
-            </div>
-          </div>
+  <h4 className="text-xl text-left font-semibold text-popBlue">Resources</h4>
+  <div className="space-y-4">
+    <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
+      <h5 className="font-semibold text-white mb-3 text-center">QR Code</h5>
+
+      {/* Centered image container */}
+      <div className="flex justify-center">
+        <div className="bg-white rounded-xl p-4 inline-block">
+          <Image
+            src={qr}
+            alt="QR Code for useful links"
+            width={120}
+            height={120}
+            className="w-30 h-30"
+          />
+        </div>
+      </div>
+
+      <p className="text-sm text-gray-300 mt-3 text-center">
+        Scan to access official election information
+      </p>
+    </div>
+  </div>
+</div>
 
           {/* Contact Information */}
           <div className="space-y-6">
@@ -196,23 +201,23 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Bottom Footer */}
-      <div className="border-t border-white/10">
-        <div className="max-w-7xl mx-auto px-6 py-6">
-          <div className="flex flex-col lg:flex-row items-center justify-between space-y-4 lg:space-y-0">
-            <div className="flex flex-col lg:flex-row items-center space-y-2 lg:space-y-0 lg:space-x-6 text-gray-300">
-              <p className="text-center lg:text-left">
-                © 2024 QuickVote. All Rights Reserved.
-              </p>
-              <div className="hidden lg:block w-1 h-1 bg-gray-500 rounded-full"></div>
-              <p className="text-center lg:text-left">
-                Powered by Blockchain Technology
-              </p>
-            </div>
-          
-          </div>
-        </div>
-      </div>
+{/* Bottom Footer */}
+<div className="border-t border-white/10">
+  <div className="max-w-7xl mx-auto px-6 py-6">
+    <div className="flex flex-col lg:flex-row items-center justify-between">
+      {/* Left side: © text */}
+      <p className="text-center lg:text-left text-gray-300">
+        © 2024 QuickVote. All Rights Reserved.
+      </p>
+
+      {/* Right side: Powered by */}
+      <p className="text-center lg:text-right text-gray-300 mt-4 lg:mt-0">
+        Powered by Blockchain Technology
+      </p>
+    </div>
+  </div>
+</div>
+
     </footer>
   );
 };
